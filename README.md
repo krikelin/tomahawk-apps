@@ -1,16 +1,8 @@
-tomahawk-plugin-vsxu
-====================
 
-Visualizer plugin for Tomahawk
+tomahawk-apps
+=============
 
-Depends:
---------
-
-Latest Tomahawk Player.
-Vovoid VSXu 0.4.0+ (http://github.com/vovoid/vsxu)
-
-
-Compiling and running Tomahawk
+Web app platform for Tomahawk
 ------------------------------
 
 Compile and Install:
@@ -21,3 +13,4 @@ Compile and Install:
     $ make install
 
 And live happily ever after :)
+=======
