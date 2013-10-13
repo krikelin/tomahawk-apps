@@ -47,7 +47,7 @@ public:
     virtual bool isBeingPlayed() const { return false; }
     QWebView *webView();
     PlaylistView *playlist();
-    QVBox* layout();
+    QVBoxLayout* layout();
 signals:
 
 public slots:
@@ -57,7 +57,7 @@ private:
     QString m_filter;
     QWebView *m_webView;
     PlaylistView *m_playlist;
-    QVBox *layout;
+    QVBoxLayout *m_layout;
 };
 
 #endif // WEBAPPWIDGET_H

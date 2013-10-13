@@ -9,13 +9,13 @@
 /home/alecca/tomahawk-apps/WebAppWidget.cpp
 WebAppWidget.h
 /home/alecca/tomahawk-apps/WebAppWidget.h
-libtomahawk/MetaPlaylistInterface.h
--
 
 /home/alecca/tomahawk-apps/WebAppWidget.h
 libtomahawk/ViewPage.h
 -
 QBoxLayout
+-
+libtomahawk/MetaPlaylistInterface.h
 -
 libtomahawk/playlist/PlaylistView.h
 -

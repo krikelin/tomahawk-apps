@@ -18,7 +18,11 @@ WebAppWidget::WebAppWidget(QWidget *parent) :
     QObject::connect(m_webView, SIGNAL(WebAppWidget::loadFinished(bool)), this, SLOT(WebAppWidget::loadFinished(bool)));
 
 }
-QWidget* WebAppWidget::playlist() {
+QVBoxLayout* WebAppWidget::layout() {
+    return m_layout;
+}
+
+PlaylistView* WebAppWidget::playlist() {
     return m_playlist;
 }
 
@@ -71,6 +75,6 @@ void WebAppWidget::loadFinished(bool b) {
         // Set uri
         // TODO add playlist handler
         m_playlist = new PlaylistView(this);
-        this->
+        this->layout()->addWidget(m_playlist);
     }
 }

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'WebAppWidget.h'
 **
-** Created: Sun Oct 13 19:48:40 2013
+** Created: Sun Oct 13 20:05:19 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
