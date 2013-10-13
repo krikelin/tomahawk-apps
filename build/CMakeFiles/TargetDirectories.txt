@@ -1,0 +1,2 @@
+/home/alecca/tomahawk-apps/build/CMakeFiles/tomahawk_viewpage_webapps.dir
+/home/alecca/tomahawk-apps/build/CMakeFiles/tomahawk_viewpage_webapps_automoc.dir
